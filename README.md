@@ -2,7 +2,7 @@
 
 ### Description
 
-It exploits CVE 2023-2728 and CVE 2024-3177, both related to bypassing the imposition of the mountable secrets policy imposed by the ServiceAccount admission plugin in Kubernetes, 
+It exploits CVE 2023-2728 and CVE 2024-3177 in Kubernetes versions vulnerable to each of them (e.g v1.27.2), both related to bypassing the imposition of the mountable secrets policy imposed by the ServiceAccount admission plugin in Kubernetes, 
 with different types of containers and strategies.  
 The main objective is to obtain the desired secrets and present them in the environment variables in an attractive way for the user.
 ## Verification Steps
